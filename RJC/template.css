@@ -1,0 +1,238 @@
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+body { font-family: Arial; font-size: 16px; margin: 0px; line-height: 1.6; }
+p { margin: 15px 0px; }
+.clearfix { clear: both; }
+h1, h2, h3, h4, h5 { margin: 0px; padding: 0px; }
+h1 { font-size: 26px; }
+h2 { font-size: 24px; }
+h3 { font-size: 20px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+img { border: none; margin: none; }
+ul, li, .menu { list-style: none; padding: 0; margin: 0; }
+a.link { color: #000000; text-decoration: none; }
+input, select, textarea, button { font-family: Arial; font-size: 17px; }
+@media screen and (min-width:1024px){
+body { font-size: 14px; line-height: 1.6; }
+h1 { font-size: 24px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+h4 { font-size: 18px; }
+h5 { font-size: 16px; }
+input, select, textarea, button { font-size: 15px; }
+}
+@media screen and (min-width:1280px){
+body { font-size: 17px; }
+h1 { font-size: 27px; }
+h2 { font-size: 25px; }
+h3 { font-size: 20px; }
+h4 { font-size: 21px; }
+h5 { font-size: 19px; }
+input, select, textarea, button { font-size: 18px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+#header { height: 70px; border-bottom: 1px solid #dedede; }
+#banner { color: #FFFFFF; float: left; width: 100%; clear: both; background: #184a7d; border-bottom: 1px solid #dedede; }
+#container { padding: 0px 15px; }
+#advert { float: left; width: 100%; padding: 15px 0px 0px 0px; clear: both; border-bottom: 1px solid #dedede; }
+#spacer { height: 20px; clear: both; }
+#copyright { padding: 10px 0px; clear: both; border-top: 1px solid #dedede; }
+#disclaimer { font-size: 14px; text-align: justify; padding: 10px 0px; border-top: 1px solid #dedede; }
+#error, #accept { font-size: 20px; font-weight: bold; text-align: center; padding: 10px 0px; clear: both; border-bottom: 1px solid #dedede; }
+@media screen and (min-width:480px){
+#header { height: 100px; }
+}
+@media screen and (min-width:1024px){
+#header { height: 80px; padding: 10px 0px; }
+#header-inner { width: 970px; margin: 0 auto; padding: 0px 10px; }
+#container { width: 970px; margin: 0 auto; padding: 0px 10px; }
+#copyright { padding: 0px; height: 70px; }
+}
+@media screen and (min-width:1280px){
+#advert { padding: 20px 0px 0px 0px; }
+#upper { padding: 20px 0px 0px 0px; }
+#spacer { height: 25px; }
+#header-inner { width: 1200px; }
+#container { width: 1200px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+#logo { float: left; margin: 10px 0px 10px 15px; }
+#logo img { height: 50px; }
+#banner h1 { text-align: center; margin: 20px 0px; }
+#banner img { width: 100%; }
+#advert .advert2 .first, #advert .advert2 .second { text-align: center; margin: 0px 0px 12px 0px; }
+#advert .advert4 .first, #advert .advert4 .second, #advert .advert4 .third, #advert .advert4 .forth, #advert .advert4 .fifth { text-align: center; margin: 0px 0px 12px 0px; }
+#advert h1 { margin: 0px 0px 15px 0px; }
+#bottom .first, #bottom .second, #bottom .third, #bottom .fifth { text-align: center; margin: 0px 0px 20px 0px; }
+#bottom li { padding: 10px 0px; border-bottom: 1px solid #dedede; }
+#bottom h2 { padding: 0px 0px 5px 0px; border-bottom: 1px solid #dedede; }
+#copy { text-align: center; margin: 0px 0px 10px 0px; }
+#social { text-align: center; }
+@media screen and (min-width:480px){
+#logo { margin: 10px 0px 0px 15px; }
+#logo img { height: 80px; }
+#advert .advert4 .first, #advert .advert4 .second, #advert .advert4 .third, #advert .advert4 .forth, #advert .advert4 .fifth { float: left; width: 14%; }
+#bottom .first { float: left; width: 14%; }
+#bottom .second { float: left; width: 14%; margin: 0px 0px 20px 2%; }
+#bottom .third { float: right; width: 20%; }
+}
+@media screen and (min-width:1024px){
+#logo { margin: 0px; }
+#banner h1 { float: left; }
+#advert .advert2 .first, #advert .advert2 .second { float: left; width: 14%; }
+#advert .advert4 .first, #advert .advert4 .second, #advert .advert4 .third, #advert .advert4 .forth, #advert .advert4 .fifth { width: 20%; }
+#bottom .first { width: 228px; border: 1px solid #dedede; }
+#bottom .second { width: 308px; margin: 0px 0px 20px 20px; border: 1px solid #dedede; }
+#bottom .third { width: 308px; border: 1px solid #dedede; }
+#copy { float: left; margin: 25px 0px 0px 0px; }
+#social { float: right; margin: 12px 0px 0px 0px; }
+#social img { height: 40px; margin: 0px 0px 0px 5px; }
+}
+@media screen and (min-width:1280px){
+#advert .advert2 .first, #advert .advert2 .second { margin: 0px 0px 12px 0px; }
+#advert .advert4 .first, #advert .advert4 .second, #advert .advert4 .third, #advert .advert4 .forth, #advert .advert4 .fifth { margin: 0px 0px 12px 0px; }
+#advert h1 { margin: 0px 0px 20px 0px; }
+#bottom .first { width: 228.66px; }
+#bottom .second { width: 384.66px; }
+#bottom .third { width: 384.66px; }
+#copy { margin: 21px 0px 0px 0px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+#toolbar { clear: both; margin: 40px 0px 15px 0px; background: #FFFFFF; width: 100%; position: relative; z-index: 5; }
+#toolbar .menu a { font-size: 17px; display: block; text-decoration: none; color: #000000; padding: 3px 14px; border-top: 1px solid #dedede; }
+@media screen and (min-width:1024px){
+#navigation { float: right; margin: 25px 0px 0px 0px; }
+#toolbar { clear: none; margin: 0px; background: none; width: auto; z-index: auto; }
+#toolbar .menu a { padding: 0px; border-top: none; font-size: 15px; }
+#toolbar .menu li { float: left; position: relative; margin: 0px 0px 0px 40px; padding: 0px; border-bottom: none; line-height: 2; }
+}
+@media screen and (min-width:1280px){
+#navigation { margin: 23px 0px 0px 0px; }
+#toolbar .menu a { font-size: 18px; }
+#toolbar .menu li { margin: 0px 0px 0px 60px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+.collapse { display: none; }
+.collapse.in { display: block; }
+.collapsing { position: relative; height: 0; overflow: hidden; -webkit-transition: height .35s ease; -o-transition: height .35s ease; transition:height .35s ease; }
+.navbar-toggle { cursor: pointer; position: relative; float: right; padding: 5px; margin: 18px 15px 0px 0px; background-color: transparent; border-radius:4px; }
+.navbar-toggle:focus { outline: 0; }
+.navbar-toggle .icon-bar { display: block; width: 30px; height: 5px; border-radius: 1px; }
+.navbar-toggle .icon-bar+.icon-bar { margin: 4px 0px 0px 0px; }
+.navbar-inverse .navbar-toggle { border: none; background: none; }
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus { background: none; }
+.navbar-inverse .navbar-toggle .icon-bar{ background: #111111; }
+@media (min-width:480px){
+.navbar-toggle { margin: 33px 15px 0px 0px; }
+}
+@media (min-width:1024px){
+.navbar-collapse.collapse { display: block!important; height: auto!important; padding-bottom: 0; overflow: visible!important; }
+.navbar-toggle { display: none; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+.item { text-align: center; padding: 10px; border: 1px solid #dedede; }
+.item h2 { font-size: 20px; }
+.item img { width: 100%; margin: 10px 0px 0px 0px; }
+.item span { font-size: 50px; font-weight: bold; }
+.column-1, .column-2, .column-3, .column-4 { margin: 0px 0px 15px 0px; }
+@media (min-width:480px){
+.row { clear: both; }
+.column-1, .column-3 { float: left; width: 49%; }
+.column-2, .column-4 { float: right; width: 49%; }
+}
+@media (min-width:1024px){
+.row { clear: none; display: none; }
+.items-row { clear: both; }
+.column-1 { width: 231.25px; }
+.column-2, .column-3 { float: left; width: 231.25px; margin: 0px 0px 15px 15px; }
+.column-4 { width: 231.25px; }
+}
+@media screen and (min-width:1280px){
+.column-1 { width: 285px; margin: 0px 0px 20px 0px; }
+.column-2, .column-3 { width: 285px; margin: 0px 0px 20px 20px; }
+.column-4 { width: 285px; margin: 0px 0px 20px 0px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+ul.pagination { clear: both; text-align: center; padding: 0px 0px 20px 0px; }
+ul.pagination li.dot { padding: 3px 0;}
+ul.pagination li { float: none; display: inline; margin: 0px; padding: 0px; margin: 0px 3px; }
+ul.pagination li a { color: #000000; text-decoration: none; padding: 6px 10px; border: solid 1px #dedede; }	
+ul.pagination li.nav_hide { display: none; }
+@media screen and (min-width:480px){
+ul.pagination li { margin: 0px 4px; }
+ul.pagination li a { padding: 5px 10px; }
+}
+@media screen and (min-width:1024px){
+ul.pagination li.nav_hide { display: inline; }
+ul.pagination li { margin: 0px 6px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+.social { text-align: center; margin: 0px 0px 20px 0px; }
+.heading { text-align: center; margin: 0px 0px 20px 0px; }
+.image { margin: 0px 0px 20px 0px; border-bottom: 5px solid #184a7d; }
+.image img { width: 100%; }
+.desc { text-align: justify; margin: 0px 0px 20px 0px; }
+.form { text-align: center; margin: 0px 0px 20px 0px; }
+.form form { margin: 0px 0px 15px 0px; }
+.form h5 { margin: 0px 0px 15px 0px; }
+.form input { width: 92%; padding: 10px; border: 1px solid #dedede; }
+.form select { width: 100%; padding: 9px 10px; border: 1px solid #dedede; }
+.form button { padding: 10px; border: 1px solid #dedede; }
+.btn-group { text-align: center; margin: 0px 0px 20px 0px; }
+.btn-group a { color: #000000; text-decoration: none; padding: 10px; margin: 0px 5px; border: 1px solid #dedede; }
+.paypal .button { font-size: 30px; padding: 10px 15px; border: 1px solid #dedede; }
+.paypal { text-align: center; margin: 25px 0px 45px 0px; }
+.paypal h2 { font-size: 40px; margin: 20px 0px; }
+.paypal h4 { margin: 20px 0px 0px 0px; }
+@media screen and (min-width:480px){
+.form input { width: 200px; }
+.form select { width: 100px; }
+}
+@media screen and (min-width:1024px){
+.social { float: right; margin: 24px 0px 0px 0px; }
+}
+@media screen and (min-width:1280px){
+.social { margin: 27px 0px 0px 0px; }
+.form input { width: 250px; }
+.form select { width: 150px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+.contact table { width: 100%; margin: 10px 0px; }
+.contact table td { padding: 0px 0px 10px 0px; }
+.contact input, .contact textarea { width: 92%; padding: 10px; border: 1px solid #dedede; }
+@media screen and (min-width:1024px){
+.contact input { width: 350px; }
+.contact textarea { height: 250px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+.error { text-align: center; margin: 0px 0px 20px 0px; }
+@media screen and (min-width:1024px){
+.error { margin: 122px 0px 142px 0px; }
+}
+/*********************************/
+/********** JoomlaSaver **********/
+/*********************************/
+#download { clear: both; }
+#download table { width: 100%; margin: 0px 0px 20px 0px; }
+#download table td { padding: 10px; border: 1px solid #dedede; }
+#center { clear: both; text-align: center; margin: 0px 0px 20px 0px; }
